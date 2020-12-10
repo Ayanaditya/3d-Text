@@ -1,0 +1,20 @@
+/* CodePen styles */
+body {
+	font-size: 5em;
+	margin: 30px;
+}
+
+/* Demo styles */
+.z-text {
+/* 	animation: wobble 10s ease-in-out infinite; */
+	transform: rotateX(30deg);
+}
+
+.z-layer {
+   filter: brightness(0.7);
+}
+
+.z-layer:first-child {
+   filter: brightness(1);
+}
+
